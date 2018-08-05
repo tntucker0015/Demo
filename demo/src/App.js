@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // Navigation Class - Use state to open and close menu, add classes and drive UI //
@@ -80,5 +79,5 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("app"));
+
 export default App;
