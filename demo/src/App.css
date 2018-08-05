@@ -60,7 +60,6 @@ body {
   display: inline-block;
 }
 
-@size: 100px;
 .circle {
   display: block;
   background-color: #373737;
@@ -70,8 +69,8 @@ body {
   box-shadow: 0px 3px 8px #222, inset 0px 2px 3px #2e4c6b;
   color: #a7a7a7;
   font-size: 24px;
-  width: @size;
-  height: @size;
+  width: 100px;
+  height: 100px;
   outline: none;
   text-align: center;
   transition: box-shadow 500ms ease-in-out;
@@ -107,7 +106,6 @@ body {
   }
 }
 
-@medSize: @size / 1.2;
 .button {
   display: block;
   background-color: #373737;
@@ -115,11 +113,12 @@ body {
   border-radius: 50%;
   color: #a7a7a7;
   font-size: 12px;
-  line-height: @medSize;
+  line-height: 83px;
   text-align: center;
   text-decoration: none;
-  width: @medSize;
-  height: @medSize;
+  width: 83px;
+  height: 83px;
+
   .center();
   z-index: -1;
   transition: top 400ms ease-in-out, left 400ms ease-in-out, box-shadow 400ms ease-in-out;
